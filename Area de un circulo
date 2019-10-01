@@ -1,0 +1,9 @@
+#include <stdio.h>
+#define PI 3.1416
+void main () {
+float radio,area;
+printf ("ingrese el radio");
+scanf("%f",&radio);
+area=PI*radio*radio;
+printf("El area es:%f",area);
+}
